@@ -77,7 +77,7 @@ export const DISCORD_TUTORIALS = [
     title: "Discord Training #01",
     description: "Тренинг, проведённый в Discord.",
     level: "Beginner",
-    duration: "00:00",
+    duration: "1:10:20",
     author: "lincos",
     video: "https://github.com/bobyhamster/axistoturialru/releases/download/videos-v1/0829.1.mp4",
     poster: "/images/discord-tutorial-01.png",
