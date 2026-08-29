@@ -79,7 +79,7 @@ export const DISCORD_TUTORIALS = [
     level: "Beginner",
     duration: "00:00",
     author: "lincos",
-    video: "RU_DISCORD_VIDEO_01",
+    video: "https://github.com/bobyhamster/axistoturialru/releases/download/videos-v1/0829.1.mp4",
     poster: "/images/discord-tutorial-01.png",
   },
 ];
