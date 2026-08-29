@@ -4,7 +4,7 @@ export default function TutorialCard({ tutorial, onOpen }) {
       <button
         className="tutorial-preview"
         onClick={() => onOpen(tutorial)}
-        aria-label={`Watch ${tutorial.title}`}
+        aria-label={`Смотреть ${tutorial.title}`}
         type="button"
       >
         {tutorial.video ? (
@@ -54,7 +54,7 @@ export default function TutorialCard({ tutorial, onOpen }) {
           onClick={() => onOpen(tutorial)}
           type="button"
         >
-          Watch video ↗
+          Смотреть видео ↗
         </button>
       </div>
     </article>

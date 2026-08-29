@@ -3,14 +3,14 @@ export default function LevelSelector({ onSelect }) {
     {
       id: "Beginner",
       number: "01",
-      title: "For beginners",
-      description: "First steps, controls, and fundamentals",
+      title: "Для начинающих",
+      description: "Первые шаги, управление и основы",
     },
     {
       id: "Advanced",
       number: "02",
-      title: "For advanced users",
-      description: "Precision, speed, and strategy",
+      title: "Для продвинутых",
+      description: "Точность, скорость и стратегия",
     },
   ];
 

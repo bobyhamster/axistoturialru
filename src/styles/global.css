@@ -151,7 +151,7 @@ a {
 .hero-grid {
   width: 100%;
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(420px, 0.9fr);
+  grid-template-columns: minmax(0, 1.25fr) minmax(420px, 0.8fr);
   align-items: start;
   gap: 50px;
 }
@@ -282,7 +282,7 @@ a {
 
   background: transparent;
 
-  transform: translateX(45px) rotate(-8deg);
+  transform: translateX(40px) rotate(-8deg);
 }
 
 
@@ -1490,7 +1490,7 @@ h2 {
   display: block;
   object-fit: contain;
 
-  transform: translate(50px, 30px);
+  transform: translate(5px, 30px);
   margin: 0;
 }
 /* =========================
@@ -1529,4 +1529,123 @@ h2 {
 
 .tutorials-heading .authors-kicker {
   margin: 0 0 24px;
+}
+/* Center the last author */
+.authors-grid .author-card:nth-child(5) {
+  grid-column: 1 / -1;
+  justify-self: center;
+  width: 50%;
+}
+/* =========================
+   DISCORD TUTORIALS
+========================= */
+
+.discord-tutorials {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+
+  margin-top: 48px;
+  padding: 28px 30px;
+
+  border: 1px solid var(--line);
+  color: var(--text);
+  text-decoration: none;
+
+  transition:
+    border-color 0.2s ease,
+    background 0.2s ease;
+}
+
+.discord-tutorials:hover {
+  border-color: var(--green);
+  background: #0b0f0c;
+}
+
+.discord-tutorials-content {
+  min-width: 0;
+}
+
+.discord-tutorials-kicker {
+  display: block;
+  margin-bottom: 10px;
+
+  color: var(--green);
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+}
+
+.discord-tutorials h3 {
+  margin: 0 0 8px;
+
+  color: #f1f3f1;
+  font-size: 22px;
+  line-height: 1.1;
+  font-weight: 600;
+  letter-spacing: -0.6px;
+}
+
+.discord-tutorials p {
+  max-width: 600px;
+  margin: 0;
+
+  color: #707a73;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.discord-tutorials-arrow {
+  flex-shrink: 0;
+
+  color: var(--green);
+  font-size: 22px;
+
+  transition: transform 0.2s ease;
+}
+
+.discord-tutorials:hover .discord-tutorials-arrow {
+  transform: translateX(5px);
+}
+
+@media (max-width: 600px) {
+  .discord-tutorials {
+    padding: 24px 20px;
+  }
+
+  .discord-tutorials h3 {
+    font-size: 19px;
+  }
+}
+.discord-tutorials-header {
+  margin-top: 80px;
+  margin-bottom: 32px;
+  padding: 24px 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.discord-tutorials-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  color: var(--text);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+}
+
+.discord-tutorials-icon {
+  color: var(--green);
+  font-size: 9px;
+}
+
+.discord-tutorials-header p {
+  margin: 10px 0 0 19px;
+
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.5;
 }

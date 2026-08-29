@@ -1,102 +1,112 @@
 export const LEVELS = ["Beginner", "Advanced"];
-export const TUTORIALS = [
 
+export const TUTORIALS = [
   {
     id: "01",
-    title: "Axis Tutorial: Multi-Embodiment Task for Beginners",
+    title: "Axis: мульти-embodiment для начинающих",
     description:
-      "A beginner-friendly walkthrough for completing a multi-embodiment task on Axis Robotics.",
+      "Пошаговый разбор выполнения задания с несколькими embodiment на Axis Robotics.",
     level: "Beginner",
     duration: "7:27",
     author: "Eph",
-    video: "https://quspm8uskq6zr4kg.public.blob.vercel-storage.com/axis-multi-embodiment-beginners.mp4",
+    video: "RU_VIDEO_01",
     poster: "/images/tutorial-01.png",
   },
 
   {
     id: "02",
-    title: "Post-Training Tasks Tutorial",
-    description: "Master post-training tasks in 3 minutes",
+    title: "Задания после обучения",
+    description: "Разберись с заданиями после обучения за 3 минуты.",
     level: "Beginner",
     duration: "2:47",
     author: "axisrobotics",
-    video: "https://quspm8uskq6zr4kg.public.blob.vercel-storage.com/post-training-score-high.mp4",
+    video: "RU_VIDEO_02",
     poster: "/images/tutorial-02.png",
   },
 
   {
-  id: "03",
-  title: "Mastering Double-Click & Checkpoints",
-  description:
-    "How to Use Checkpoints and Double-Click to Get a High Score",
-  level: "Advanced",
-  duration: "6:52",
-  author: "Eph",
-  video: "https://quspm8uskq6zr4kg.public.blob.vercel-storage.com/checkpoints-double-click-high-score.mp4",
-  poster: "/images/tutorial-03.png",
-},
+    id: "03",
+    title: "Double-Click и Checkpoints",
+    description:
+      "Как использовать Checkpoints и Double-Click для получения высокого результата.",
+    level: "Advanced",
+    duration: "6:52",
+    author: "Eph",
+    video: "RU_VIDEO_03",
+    poster: "/images/tutorial-03.png",
+  },
+
   {
     id: "04",
-    title: "Full WalkThrough Tutorial (Beginner Friendly)",
-    description: "How to teach a ROBOT",
+    title: "Полный гайд для начинающих",
+    description: "Как обучать робота.",
     level: "Beginner",
-    
     duration: "8:21",
     author: "axisrobotics",
-    video: "https://quspm8uskq6zr4kg.public.blob.vercel-storage.com/full-walkthrough-beginner.mp4",
+    video: "RU_VIDEO_04",
     poster: "/images/tutorial-04.png",
   },
 
   {
     id: "05",
-    title: "Controls & Pro Tips",
+    title: "Управление и полезные советы",
     description:
-      "Learn the basics of Axis robot controls, key functions, and pro tips to complete tasks more efficiently",
+      "Основы управления роботом Axis, ключевые функции и советы для более эффективного выполнения заданий.",
     level: "Beginner",
-    
-
     duration: "5:25",
     author: "Sunny",
-    video: "https://quspm8uskq6zr4kg.public.blob.vercel-storage.com/axis-multi-embodiment-beginners.mp4",
+    video: "RU_VIDEO_05",
     poster: "/images/tutorial-05.png",
   },
 
   {
     id: "06",
-    title: "Control Basics",
+    title: "Основы управления",
     description:
-      "This video will help you control the robot well.",
-   level: "Beginner",
-                            
+      "Видео поможет научиться уверенно управлять роботом.",
+    level: "Beginner",
     duration: "4:57",
     author: "KosiOkorie",
-    video: "https://quspm8uskq6zr4kg.public.blob.vercel-storage.com/Control%20Basics.mp4",
+    video: "RU_VIDEO_06",
     poster: "/images/tutorial-06.png",
   },
 ];
+export const DISCORD_TUTORIALS = [
+  {
+    id: "D01",
+    title: "Discord Training #01",
+    description: "Тренинг, проведённый в Discord.",
+    level: "Beginner",
+    duration: "00:00",
+    author: "lincos",
+    video: "RU_DISCORD_VIDEO_01",
+    poster: "/images/discord-tutorial-01.png",
+  },
+];
+
 export const AUTHORS = [
   {
     initials: "A1",
-    role: "Axis contributor",
+    role: "Участник Axis",
     name: "Author 01",
     videos: 2,
     description:
-      "Community contributor focused on beginner-friendly walkthroughs.",
+      "Участник комьюнити, создающий понятные гайды для начинающих.",
   },
   {
     initials: "A2",
-    role: "Video creator",
+    role: "Создатель видео",
     name: "Author 02",
     videos: 2,
     description:
-      "Creates practical guides for the training workflow.",
+      "Создаёт практические руководства по процессу обучения.",
   },
   {
     initials: "A3",
-    role: "Community member",
+    role: "Участник комьюнити",
     name: "Author 03",
     videos: 2,
     description:
-      "Shares advanced techniques and repeatable task strategies.",
+      "Делится продвинутыми техниками и повторяемыми стратегиями выполнения заданий.",
   },
 ];

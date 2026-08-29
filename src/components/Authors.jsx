@@ -19,6 +19,11 @@ const AUTHORS = [
     avatar: "/authors/3.jpg",
     x: "https://x.com/Rabiussunny11",
   },
+{
+    username: "lincos",
+    avatar: "/authors/lincos.jpg",
+    x: "https://x.com/AnDRIAn15192139",
+  },
 ];
 
 export default function Authors() {
@@ -26,9 +31,9 @@ export default function Authors() {
     <section className="section authors-section" id="authors">
       <div className="authors-heading">
         <div>
-          <p className="authors-kicker">02 / AUTHORS</p>
+          <p className="authors-kicker">02 / АВТОРЫ</p>
 
-          <h2>The people behind the videos.</h2>
+<h2>Люди, которые создают видео.</h2>
         </div>
 
         

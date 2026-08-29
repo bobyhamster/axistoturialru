@@ -51,7 +51,7 @@ export default function TutorialModal({ tutorial, onClose }) {
         <button
           onClick={onClose}
           type="button"
-          aria-label="Close tutorial"
+          aria-label="Закрыть урок"
           style={{
             position: "absolute",
             top: "12px",

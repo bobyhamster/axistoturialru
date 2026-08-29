@@ -7,45 +7,44 @@ export default function Hero() {
         <div className="hero-left">
           <p className="eyebrow">
             <span className="eyebrow-dot" />
-            COMMUNITY GUIDE
+            ГАЙД ДЛЯ КОМЬЮНИТИ
           </p>
 
           <h1 id="hero-title">
-            Learn to train
+            Научись тренировать
             <br />
-            robots <span>the right way.</span>
+            роботов <span>правильно.</span>
           </h1>
 
           <p className="hero-copy">
-            Clear video tutorials for every stage of Axis Robotics from your
-            first trajectory to confident work on advanced tasks.
+            Понятные видеоуроки для каждого этапа работы с Axis Robotics от первой траектории до уверенной работы со сложными задачами.
           </p>
 
           <div className="hero-bottom">
             <a className="hero-button" href="#tutorials">
-              <span>Choose your level</span>
+              <span>Выбрать уровень</span>
               <strong>↓</strong>
             </a>
 
             <p className="hero-credit">
-  Created by members of the Axis community:
-  <br />
-  <a
-    href="https://x.com/samurai_itan"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    samurai_itan
-  </a>{" "}
-  and{" "}
-  <a
-    href="https://x.com/bobyhamster"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    bobyhamster
-  </a>
-</p>
+              Создано участниками сообщества Axis:
+              <br />
+              <a
+                href="https://x.com/samurai_itan"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                samurai_itan
+              </a>{" "}
+              и{" "}
+              <a
+                href="https://x.com/bobyhamster"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                bobyhamster
+              </a>
+            </p>
           </div>
         </div>
 

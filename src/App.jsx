@@ -6,7 +6,7 @@ import LevelSelector from "./components/LevelSelector";
 import TutorialCard from "./components/TutorialCard";
 import TutorialModal from "./components/TutorialModal";
 import Authors from "./components/Authors";
-import { TUTORIALS } from "./data/tutorials";
+import { TUTORIALS, DISCORD_TUTORIALS } from "./data/tutorials";
 
 export default function App() {
   const [filter, setFilter] = useState("Beginner");
@@ -35,8 +35,8 @@ export default function App() {
         <section id="tutorials" className="section tutorials-section">
   <div className="authors-heading">
     <div>
-      <p className="authors-kicker">01 / TUTORIALS</p>
-      <h2>Where should we start?</h2>
+      <p className="authors-kicker">01 / ТУТОРИАЛЫ</p>
+<h2>С чего начать?</h2>
     </div>
   </div>
 
@@ -51,9 +51,27 @@ export default function App() {
               />
             ))}
           </div>
+<div className="discord-tutorials-header">
+  <div className="discord-tutorials-title">
+    <span className="discord-tutorials-icon">●</span>
+    <span>DISCORD TUTORIALS</span>
+  </div>
 
+  <p>
+    Тренинги и разборы, проведённые в Discord.
+  </p>
+</div>
+<div className="tutorial-grid discord-tutorial-grid">
+  {DISCORD_TUTORIALS.map((tutorial) => (
+    <TutorialCard
+      key={tutorial.id}
+      tutorial={tutorial}
+      onOpen={setSelectedTutorial}
+    />
+  ))}
+</div>
           {visibleTutorials.length === 0 && (
-            <div className="empty-state">No tutorials found.</div>
+            <div className="empty-state">Уроки не найдены.</div>
           )}
         </section>
 
@@ -116,8 +134,8 @@ export default function App() {
       </main>
 
       <footer className="site-footer">
-        <span>AXIS TUTORIALS</span>
-        <a href="#top">Back to top ↑</a>
+        <span>AXIS TUTORIALS RU</span>
+<a href="#top">Наверх ↑</a>
       </footer>
 
       <TutorialModal
