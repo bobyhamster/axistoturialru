@@ -36,7 +36,7 @@ export default function App() {
   <div className="authors-heading">
     <div>
       <p className="authors-kicker">01 / ТУТОРИАЛЫ</p>
-<h2>С чего начать?</h2>
+<h2>Учись сам</h2>
     </div>
   </div>
 

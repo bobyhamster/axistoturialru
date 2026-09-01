@@ -9,16 +9,6 @@ const AUTHORS = [
     avatar: "/images/axis.jpg",
     x: "https://x.com/axisrobotics",
   },
-  {
-    username: "KosiOkorie",
-    avatar: "/authors/2.jpg",
-    x: "https://x.com/KosiOkorie",
-  },
-  {
-    username: "Sunny",
-    avatar: "/authors/3.jpg",
-    x: "https://x.com/Rabiussunny11",
-  },
 {
     username: "lincos",
     avatar: "/authors/lincos.jpg",
@@ -33,7 +23,7 @@ export default function Authors() {
         <div>
           <p className="authors-kicker">02 / АВТОРЫ</p>
 
-<h2>Люди, которые создают видео.</h2>
+<h2>Учи других</h2>
         </div>
 
         

@@ -3,24 +3,24 @@ export const LEVELS = ["Beginner", "Advanced"];
 export const TUTORIALS = [
   {
     id: "01",
-    title: "Axis: мульти-embodiment для начинающих",
+    title: "Знакомство с разными типами роботов",
     description:
-      "Пошаговый разбор выполнения задания с несколькими embodiment на Axis Robotics.",
+      "Пошаговое руководство для новичков по выполнению задачи с разными типами роботов в Axis Robotics.",
     level: "Beginner",
     duration: "7:27",
     author: "Eph",
-    video: "RU_VIDEO_01",
+    video: "https://github.com/bobyhamster/axistoturialru/releases/download/videos-v1/eph.1.mov",
     poster: "/images/tutorial-01.png",
   },
 
   {
     id: "02",
-    title: "Задания после обучения",
-    description: "Разберись с заданиями после обучения за 3 минуты.",
+    title: "Post-Training",
+    description: "Разберись с заданиями Post-Training за 3 минуты.",
     level: "Beginner",
     duration: "2:47",
     author: "axisrobotics",
-    video: "RU_VIDEO_02",
+    video: "https://github.com/bobyhamster/axistoturialru/releases/download/videos-v1/post-training.mov",
     poster: "/images/tutorial-02.png",
   },
 
@@ -32,7 +32,7 @@ export const TUTORIALS = [
     level: "Advanced",
     duration: "6:52",
     author: "Eph",
-    video: "RU_VIDEO_03",
+    video: "https://github.com/bobyhamster/axistoturialru/releases/download/videos-v1/Double-Click.Checkpoints.mp4",
     poster: "/images/tutorial-03.png",
   },
 
@@ -43,32 +43,18 @@ export const TUTORIALS = [
     level: "Beginner",
     duration: "8:21",
     author: "axisrobotics",
-    video: "RU_VIDEO_04",
+    video: "https://github.com/bobyhamster/axistoturialru/releases/download/videos-v1/how.to.teach.mov",
     poster: "/images/tutorial-04.png",
   },
-
   {
     id: "05",
-    title: "Управление и полезные советы",
-    description:
-      "Основы управления роботом Axis, ключевые функции и советы для более эффективного выполнения заданий.",
-    level: "Beginner",
-    duration: "5:25",
-    author: "Sunny",
-    video: "RU_VIDEO_05",
-    poster: "/images/tutorial-05.png",
-  },
-
-  {
-    id: "06",
-    title: "Основы управления",
-    description:
-      "Видео поможет научиться уверенно управлять роботом.",
-    level: "Beginner",
-    duration: "4:57",
-    author: "KosiOkorie",
-    video: "RU_VIDEO_06",
-    poster: "/images/tutorial-06.png",
+    title: "Туториал по точному перетаскиванию.",
+    description: "Как выполнять захват и перетаскивание, чтобы не промахнуться мимо цели, особенно в задачах RoboCasa.",
+    level: "Advanced",
+    duration: "5:37",
+    author: "Eph",
+    video: "https://github.com/bobyhamster/axistoturialru/releases/download/videos-v1/How.to.click.mp4",
+    poster: "/images/tutorial-07.png",
   },
 ];
 export const DISCORD_TUTORIALS = [
