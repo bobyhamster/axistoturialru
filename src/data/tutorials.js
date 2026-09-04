@@ -56,6 +56,16 @@ export const TUTORIALS = [
     video: "https://github.com/bobyhamster/axistoturialru/releases/download/videos-v1/How.to.click.mp4",
     poster: "/images/tutorial-07.png",
   },
+  {
+    id: "06",
+    title: "Туториал по плоским объектам.",
+    description: "Как легче поднимать плоские предметы с поверхности.",
+    level: "Advanced",
+    duration: "2:18",
+    author: "Eph",
+    video: "https://github.com/bobyhamster/axistoturialru/releases/download/videos-v1/Flat.objects.tutorial.mp4",
+    poster: "/images/tutorial-08.jpg",
+  },
 ];
 export const DISCORD_TUTORIALS = [
   {
