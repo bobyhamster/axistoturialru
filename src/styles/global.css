@@ -1111,7 +1111,7 @@ h2 {
 }
 
 .author-card:last-child {
-  border-right: 0;
+  border-right: 1px solid var(--line);
 }
 
 .author-top {
