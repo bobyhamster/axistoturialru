@@ -14,6 +14,11 @@ const AUTHORS = [
     avatar: "/authors/lincos.jpg",
     x: "https://x.com/AnDRIAn15192139",
   },
+  {
+    username: "kebab",
+    avatar: "/authors/kebab.jpg",
+    x: "https://x.com/kebabchiks",
+  },
 ];
 
 export default function Authors() {

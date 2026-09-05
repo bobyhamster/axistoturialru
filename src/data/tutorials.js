@@ -66,6 +66,7 @@ export const TUTORIALS = [
     video: "https://github.com/bobyhamster/axistoturialru/releases/download/videos-v1/Flat.objects.tutorial.mp4",
     poster: "/images/tutorial-08.jpg",
   },
+  
 ];
 export const DISCORD_TUTORIALS = [
   {
@@ -77,6 +78,16 @@ export const DISCORD_TUTORIALS = [
     author: "lincos",
     video: "https://github.com/bobyhamster/axistoturialru/releases/download/videos-v1/0829.1.mp4",
     poster: "/images/discord-tutorial-01.png",
+  },
+  {
+    id: "D02",
+    title: "Discord Training #02",
+    description: "Тренинг, проведённый в Discord.",
+    level: "Beginner",
+    duration: "52:32",
+    author: "kebab",
+    video: "https://github.com/bobyhamster/axistoturialru/releases/download/videos-v1/kebab.mp4",
+    poster: "/images/discord-tutorial-02.jpg",
   },
 ];
 
