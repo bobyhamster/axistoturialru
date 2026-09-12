@@ -89,6 +89,16 @@ export const DISCORD_TUTORIALS = [
     video: "https://github.com/bobyhamster/axistoturialru/releases/download/videos-v1/kebab.mp4",
     poster: "/images/discord-tutorial-02.jpg",
   },
+   {
+    id: "D03",
+    title: "Discord Training #03",
+    description: "Тренинг, проведённый в Discord.",
+    level: "Beginner",
+    duration: "1:36:29",
+    author: "lincos",
+    video: "https://github.com/bobyhamster/axistoturialru/releases/download/videos-v1/2.mp4",
+    poster: "/images/discord-tutorial-01.png",
+  },
 ];
 
 export const AUTHORS = [
